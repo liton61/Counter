@@ -1,0 +1,40 @@
+#counter {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+hr {
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    width: 150px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#plus {
+    background-color: green;
+    width: 70px;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+#minus {
+    background-color: red;
+    width: 70px;
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+#plus:hover {
+    cursor: pointer;
+}
+
+#minus:hover {
+    cursor: pointer;
+}
